@@ -145,7 +145,7 @@ async def start_command(client: Client, message: Message):
     else:
         try:
             reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", url='https://t.me/OtakuFlix_Network/4630')],
+                [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", url='https://t.me/Tamil_Anime_Files')],
                 [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data='close'),
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')]
            ])
